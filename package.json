@@ -1,0 +1,17 @@
+{
+  "name": "nx-stream-issue-minimal-example",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "pnpm@7.11.0",
+  "main": "index.js",
+  "scripts": {
+    "issue:expected-behavior": "NX_STREAM_OUTPUT=true pnpm run issue:reproduce",
+    "issue:reproduce": "pnpm exec nx run-many --target=sample-script --all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nx": "^14.7.5"
+  }
+}

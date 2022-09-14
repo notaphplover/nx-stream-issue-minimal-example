@@ -1,0 +1,13 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "pnpm@7.11.0",
+  "main": "index.js",
+  "scripts": {
+    "sample-script": "echo sample-output"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
